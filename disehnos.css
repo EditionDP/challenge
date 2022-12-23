@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+	box-sizing: border-box;
+}
+body{
+    margin: 1px;
+    padding: 1px;
+    font-family: 'Anton', sans-serif;
+    
+    background: rgb(2, 2, 17);
+}
+/* Configuracion de titulo */
+.hero {
+	
+	min-height: 7vh;
+	display: flex;
+    align-items: center;   
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4px;    
+    z-index: 20;
+    opacity: .80;
+    
+      
+	
+}
+
+/* Configuracion de titulo  con imagen de fondo*/
+.tittle1 {
+	width: 90%;
+	color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 70px;
+	font-weight: bold;
+  	background-image: url("tittle/img/3.jpg");
+	background-size: cover;
+	background-position: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+  
+}
+/* Configuracion del fondo de pantalla con las particulas  */
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+   
+}
+
+/* Configuracion del contenedor proncipal */
+.contenedor1  {
+    margin: 20%;
+    width: 700px;
+    height: 600px;
+    padding: 10px;
+    background: #07090f;
+    background-size: 90%;
+    background-position:right;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 60%;
+    margin-top: 4px;
+    padding: -40px -80px;
+    z-index: 40;
+    opacity: .85;
+  
+   
+ 
+}
+
+/* Configuracion del logo de la a*/
+.logoalura{
+    width: 50%;
+    float: left;
+    
+}
+
+/* Configuracion posicion de la barra de texto con boton encriptar*/
+.left{
+    position: absolute;
+    top: 63%;
+    left: 2%;
+    height: auto;
+    border-radius: 24px;  
+   
+    
+}
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+input[type="text"]
+{
+    background: #040d1a;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+    color: #8f98b4;
+    font-size: 15px;
+}
+input[type="button"]
+{
+    position: relative;
+    background: #178f35;
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: none;
+    left: -4px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #dde1f1;
+    border-radius: 0 25px 25px 0;
+    
+    font-size: 20px;
+}
+input[type="button"]:hover
+{
+    background:#18073f;
+}
+
+/* Configuracion posicion de la barra de texto con boton desencriptar*/
+.left2{
+    position: absolute;
+    top: 72%;
+    left: 2%;
+    height: auto;
+    border-radius: 24px;  
+    
+}
+input[type="button2"]
+{
+    position: relative;
+    background: #178f35;
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 150px;
+    left: -4px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #dde1f1;
+    border-radius: 0 25px 25px 0;
+    
+    font-size: 20px;
+}
+input[type="button2"]:hover
+{
+    background:#18073f;
+}
+
+/*configuracion cuadro con Logo de Persona en rodillas con cuadro de ingreso de texto*/
+.right{
+    float: right;
+    width: 37%;
+    height: auto;
+    
+    border-radius: 24px;
+    color: #20a336;
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;    
+}
+
+/*configuracion Logo de Persona en rodillas con cuadro de ingreso de texto*/
+#alura{
+    margin-left: 1%;
+    margin-top: 30%;
+    width: 100%;
+    height: 90%;
+    
+    
+}
+
+/*configuracion texto NIngun texto encontrado*/
+#title2{
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 10px;
+    color:#d0d4e2;
+    
+    
+}
+/* Configuracion texto de cuadro Ingrese el texto para realizar el proceso de encriptar o desencriptar.*/
+#tittle3{
+    float: left;
+    margin-left: 1%;
+    color: #0a0b49;
+    width: 96%;
+    height: 50%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    background: #a7b8cf;
+}
+/* Configuracion imagen vector, exclamacion en circulo.*/
+#vector{
+    font-size: 5px;
+    width: 4%;
+}
+/*Configuracion de texto Una vez encriptado el texto copiar y pegar en la barra desencriptar*/
+#mensaje{   
+   
+    color: #58b621;
+    width: 90%;
+    margin-top: -5%;
+    font-size: 11px;
+    font-family: sans-serif;
+    
+         
+}
+#mensaje2{   
+   
+    color: #58b621;
+    width: 90%;
+    margin-top: 4%;
+    font-size: 11px;
+    font-family: sans-serif;
+    
+         
+}
+/*Configuracion boton copiar*/
+#copiar{
+    margin-left: 5%;
+    margin-top:5%;
+    padding: 10px;
+    width: 50%;
+    height: 30%;
+    background:#425180;
+    border-radius: 15px;
+    color:#dde5f0;
+    display: none;
+    
+}
+

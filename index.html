@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="disehnos.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="./disehnos.css">
+    <script type="text/javascript" src="scrips.js"></script>
+        
+  
+    
+</head>
+
+
+
+<body>
+   
+    <style>  
+    /*animacion del logo de alura*/   
+        .logoal{
+            border-radius: 10%;
+            animation-name: girarb;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            display: inline-block;
+            
+            
+        }
+        @keyframes girarb{
+            from{
+                transform:rotatey(0deg);
+            }to{
+                transform: rotatey(360deg);
+            }
+
+        }
+        
+        
+    </style>
+    
+    
+
+
+    <div id="particles-js"></div>  <!-- Fondo de pantalla en forma de particulas con movimiento -->
+    <div class="hero">
+        <h1 class="tittle1">Encrypter Letter</h1>  
+    </div>
+    
+   
+    <div class="contenedor1">  <!-- Aquí empieza la la configuracion del cuadro con sus contenedores y botones para encriptar y desencriptar texto -->
+         
+        <div class="logoalura"> <!-- Logo de la de alura -->
+            <img class="logoal" src="logos/Logo.png">
+            <video width="350" height="150" controls >
+                <source src="video/mimarca.mp4" type="video/mp4">
+            </video>
+                   
+            
+    
+        </div>
+        
+        <div class="left">  <!-- Barra de texto con boton para encriptar texto -->
+            <p id="mensaje"><img src="logos/Vector.png" id="vector"> Una vez encriptado el texto copiar y pegar en la barra desencriptar</p>
+            <input type="text" name="" id="textoin" placeholder="ingresa el texto">
+            <input type="button" name="" onclick="encriptar()" value="Encriptar">
+            
+
+        </div>
+        <div class="left2"> <!-- Barra de texto con boton para desencriptar texto -->
+            <input type="text" name="" id="textoin2" placeholder="ingresa el texto">
+            <input type="button2" name="" onclick="desencriptar()" value="Desencriptar">
+            <p id="mensaje2"><img src="logos/Vector.png" id="vector"> Solo letras sin acentos</p>
+
+        </div>
+      
+        <div class="right">   <!-- Logo de Persona en rodillas con cuador de ingreso de texto -->
+            <img src="logos/muhneco.png" id="alura">
+            <h4 id="tittle2">Ningun texto fue encontrado</h4>
+            <textarea id="tittle3" name="name" rows="8" cols="80">Ingrese el texto para realizar el proceso de encriptar o desencriptar.</textarea>
+            <button id="copiar" type="button" name="button" onclick="copy()">¡Copiar!</button>      
+
+        </div>
+        
+      
+
+    </div>
+
+
+   
+   
+    
+    
+   
+
+    <script src="js/particles.min.js"></script>
+    <script src="js/particle.js"></script>
+    
+    
+    
+
+
+
+</body>
+
+
+    
